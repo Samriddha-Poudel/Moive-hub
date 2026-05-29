@@ -241,7 +241,7 @@ transform:scale(1.1);
 
 }
 
-.fitler-radio{
+.filter-radio{
     position:relative;
     background:var(--rich-black-2);
     padding:12px;
@@ -278,4 +278,14 @@ input ~ .checked-radio-btn{
     bottom:4px;
     width:var(--width);
     border-radius:10px;
+}
+
+#popular:checked ~ .checked-radio-btn{
+    --width:76px;
+    --left:92px;
+}
+
+#newest:checked ~ .checked-radio-btn{
+    --width:81px;
+    --left:163px;
 }
