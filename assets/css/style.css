@@ -3,7 +3,9 @@
 @import url(./variable.css);
 
 
-
+html{
+    scroll-behavior:smooth;
+}
 
 
 header,
@@ -308,11 +310,8 @@ nav {
 .banner-card .card-content {
 
     position: absolute;
-
     right: 80px;
-
     bottom: 50px;
-
     left: 80px;
 
 }
@@ -1109,6 +1108,7 @@ ul .link-item:not(last-child){
         justify-content:space-between;
         align-items:center;
         z-index:100;
+   
     }
 
 
@@ -1146,5 +1146,105 @@ ul .link-item:not(last-child){
         margin-right:100px;
         padding-top:5px;
     }
+
+    .banner{
+        margin-top:100px;
+    }
+
+    .banner-card .card-title{
+        font-size:2.5rem;
+    }
+
+    .category-grid{
+        grid-template-columns:repeat(auto-fit, minmax(200px, 1fr) );
+    }
+
+    .footer-content{
+        flex-direction:column;
+    }
+
+    .footer-brand{
+        margin-right:0;
+        margin-bottom:60px;
+
+    }
+
+    .footer-links{
+        grid-template-columns:repeat(auto-fit, minmax(125px, 1fr) );
+    }
    
+}
+
+
+@media screen and (max-width:1024px){
+    :root{
+        --px:60px;
+    }
+
+    .banner-card .card-content{
+        bottom:40px;
+        left:60px;
+        right:60px;
+    }
+}
+
+@media screen and (max-width:768px){
+         :root{
+            --px:40px;
+         }
+
+         .banner{
+            display:none;
+         }
+
+         .movies{
+            margin-top:120px;
+         }
+
+         .filter-bar{
+            flex-direction:column;
+            align-items:flex-start;
+         }
+
+         .filter-bar select{
+            margin-bottom:20px;
+         }
+
+         .filter-radio{
+            width:100%;
+         }
+}
+
+@media screen and (max-width:575px){
+    :root{
+        --px:20px;
+
+        --section-heading:32px;
+        --fs-lg:20px;
+    }
+
+    .navbar-search-btn{
+        margin-right:20px;
+    }
+
+    .navbar-form-search{
+        margin-right:20px;
+    }
+
+    .navbar-form-btn{
+        right:55px;
+    }
+
+
+
+    .footer-copyright{
+        flex-direction:column-reverse;
+    }
+
+    .wrapper{
+        margin-bottom:20px;
+    }
+
+
+
 }
