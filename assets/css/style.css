@@ -201,7 +201,6 @@ nav {
 
 
 .navbarform-btn:hover ion-icon,
-
 .navbarform-search::placeholder {
 
     color: var(--off-white);
@@ -213,7 +212,6 @@ nav {
 
 
 .navbar-form-close,
-
 .navbar-search-btn {
 
     display: none;
@@ -1013,7 +1011,7 @@ ul .link-item:not(last-child){
         position:fixed;
         top:0;
         left:0;
-        /* overflow:hidden; */
+        overflow:hidden;
         width:100%;
         z-index:50;
     }
@@ -1113,5 +1111,40 @@ ul .link-item:not(last-child){
         z-index:100;
     }
 
+
+    .navbar-form.active{
+        top:0;
+    }
+
+    .navbar-form-search{
+        margin-right:40px;
+    }
+
+    .navbarform-btn{
+        right:78px;
+    }
+
+    .navbar-form-close{
+        display:block;
+        padding-top:4px;
+        opacity:0.8;
+    }
+
+    .navbar-form-close:hover{
+
+        opacity:1;
+    }
+
+
+    .navbar-form-close ion-icon{
+        font-size:20px;
+        color:var(--light-azure);
+    }
+
+    .navbar-search-btn{
+        display:block;
+        margin-right:100px;
+        padding-top:5px;
+    }
    
 }
