@@ -13,13 +13,18 @@ nav {
 
 }
 
+.section-heading{
+    font-size:var(--section-heading);
+    font-weight:var(--fw-5);
+    margin-bottom:50px;
+}
+
 
 
 .navbar,
-
 .banner,
-
-.movies {
+.movies,
+.category {
 
     padding: 0 var(--px);
 
@@ -815,4 +820,61 @@ input~.checked-radio-btn {
 
 .loadmore:hover{
     background:var(--light-azure);
+}
+
+
+.category{
+    margin-bottom:50px;
+}
+
+.category-grid{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:30px;
+}
+
+.category-card{
+    position:relative;
+    border-radius:20px;
+    height:150px;
+    overflow:hidden;
+    cursor:pointer;
+}
+
+.category-card:after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(180deg, transparent 20%, #000a);
+}
+
+.category-card:hover .card-img{
+
+    transform:scale(1.1);
+}
+
+.category-card .name,
+.category-card .total{
+     position:absolute;
+     bottom:20px;
+     color:var(--white);
+     z-index:20;
+}
+
+.category-card .name{
+    left:20px;
+     font-size:20px;
+}
+
+
+.category-card .total{
+    right:20px;
+    font-size:17px;
+    border-radius:7px;
+    padding:5px 8px;
+    background:var(--oxford-blue-2);
+}
+
+.category-card:hover .name{
+    color:var(--light-azure);
 }
