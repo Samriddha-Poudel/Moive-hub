@@ -1,15 +1,15 @@
 :root{
             --live-indicator-shadow:hsla(0, 79% , 63%, 0.5);
-            --rich-black:hsl(219, 32%, 10%);
-            --rich-black-2:hsl(222, 25%, 10%);
-            --live-indicator:hsl(0, 79%, 63%);
-            --oxford-blue:hsla(218, 39%, 14%, 0.8);
+            --rich-black:#111111;
+            --rich-black-2:#161920;
+            --live-indicator:#ef4444;
+            --oxford-blue:rgba(225,225,225,0.08);
             --oxford-blue-2:hsl(218, 39% , 14%);
-            --light-azure:hsl(214, 84%, 56%);
+            --light-azure:#8b5cf6;
             --off-white:hsl(0, 0%, 87%);
-            --yellow:hsl(45, 100%, 54%);
+            --yellow:hsl(45, 100%, 60%);
             --white:hsl(0, 0%, 100% );
-            --azure:hsl(211, 100%, 50%);
+            --azure:#6366f1;
 
 
             --ff-inter:"Poppins", sans-serif;

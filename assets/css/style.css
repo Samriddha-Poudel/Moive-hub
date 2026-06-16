@@ -8,6 +8,9 @@ html{
 }
 
 
+
+
+
 header,
 nav {
 
@@ -161,7 +164,7 @@ nav {
 
 .navbar-form-search {
 
-    background: var(--oxford-blue);
+     background: var(--oxford-blue);
     width: 100%;
     padding: 12px 20px;
     border-radius: 15px;
@@ -591,7 +594,7 @@ input~.checked-radio-btn {
 
 
 .movie-card .bookmark,
-.movie-card .rating {
+.movie-card .movie-rating {
 
     position: absolute;
     top: 15px;
@@ -624,7 +627,7 @@ input~.checked-radio-btn {
 
 
 
-.movie-card .rating {
+.movie-card .movie-rating {
 
     display: flex;
 
@@ -638,7 +641,7 @@ input~.checked-radio-btn {
 
 
 
-.movie-card .rating span {
+.movie-card .movie-rating span {
 
     color: var(--white);
     font-size: 14px;
@@ -981,20 +984,20 @@ ul .link-item:not(last-child){
 
 
 .footer-copyright p,
-.wrapper a{
+.last-wrapper a{
     font-size:var(--fs-sm);
 
 }
 
-.wrapper:hover a {
+.last-wrapper:hover a {
     color:var(--light-azure);
 }
 
-.wrapper{
+.last-wrapper{
     display:flex;
 }
 
-.wrapper a:not(:last-child){
+.last-wrapper a:not(:last-child){
     margin-right:30px;
 }
 
@@ -1021,7 +1024,7 @@ ul .link-item:not(last-child){
     }
 
 
-    .nav-menu-btn{
+    .navmenusbtn{
         display:block;
         position:absolute;
         top:50%;
@@ -1034,7 +1037,7 @@ ul .link-item:not(last-child){
         margin-left:50px;
     }
 
-    .nav-menu-btn span{
+    .navmenusbtn  span{
         display:block;
         background:var(--off-white);
         width:25px;
@@ -1043,27 +1046,27 @@ ul .link-item:not(last-child){
 
     }
 
-    .nav-menu-btn .two{
+    .navmenusbtn .two{
         width:20px;
 
     }
 
 
-    .nav-menu-btn .three{
+    .navmenusbtn .three{
         width:15px;
     }
 
-    .nav-menu-btn.active span{
+    .navmenusbtn.active span{
         background:var(--light-azure);
     }
-    .nav-menu-btn.active .one{
+    .navmenusbtn.active .one{
         transform:rotate(45deg) translateY(14px);
     }
 
-    .nav-menu-btn.active .two{
+    .navmenusbtn.active .two{
         width:0;
     }
-    .nav-menu-btn.active .three{
+    .navmenusbtn.active .three{
         width:25px;
         transform:rotate(-45deg) translateY(-14px);
     }
