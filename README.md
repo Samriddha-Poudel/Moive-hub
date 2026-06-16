@@ -2,7 +2,8 @@
 This is a simple static movie website which i made through HMTL , CSS and JS . I made it for my love for movies . It consit of Hero image ,  Category section , Live section and a hero section . I have added the movies
 and TV Shows banners that i love the most . It is just a demo website for movies . It is responsive also which makes it easy to use both in laptops and smaller devices like mobile phones .
 
-<img width="1364" height="767" alt="image" src="https://github.com/user-attachments/assets/b0d7c591-b24c-4eba-8f1c-f872e3657b91" />
+<img width="1365" height="687" alt="image" src="https://github.com/user-attachments/assets/7de7c692-0d7c-4e35-96c4-47de22eb080d" />
+
 
 
 ## Technologies Used
